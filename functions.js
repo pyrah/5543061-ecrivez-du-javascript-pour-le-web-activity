@@ -14,7 +14,7 @@ newsLetterButton.addEventListener('click', () => {
     findAlert.parentElement.removeChild(findAlert);
   }
   if (!newsLetterEmail.value) {
-    newParagraph.textContent = 'Veuillez saisir quelque chose !';
+    newParagraph.textContent = 'Merci de saisir quelque chose !';
     newParagraph.classList.add('alert-danger', 'w-100', 'p-2');
     newParagraph.setAttribute('id', 'alert');
     newsLetterSection.appendChild(newParagraph);
